@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    
+}
+body{
+background-color: #ffffff;
+}
+#header {
+    font-size: 25px;   
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    padding: 30px;
+    border-radius: 0px 0px 35px 35px;
+    background-color: #000000;  
+    color: #EEEEEE;
+    padding-bottom: 18px;
+    
+    
+
+}
+#game{
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#game p{
+    font-family: 'Rubik', sans-serif;
+    margin: 15px;
+}
+#game img{
+    width: 40%;
+    border-radius: 40px;
+    margin: 15px;
+}
+
+#line{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;   
+    border-radius: 20px 20px 0px 0px;
+    padding: 15px;
+}
+footer h3{
+    font-size: 50px;
+}
+footer p{
+    font-size: 20px;
+}
+img #overwatch{
+    width: 45%;
+}
+img #Witcher{
+    width: 43%;
+}
+img #zelda{
+    width: 45%;
+}
+
+@media (max-width: 768px) {
+    #header {  
+        font-size: small; 
+    }
+
+    #game{
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        
+    }
+    #game img{
+        width: 100%;
+        border-radius: 15px;
+        margin: 0px;
+    }
+}
